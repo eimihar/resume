@@ -9,7 +9,7 @@ export default defineComponent({
 </script>
 <template>
   <div class="page-title" style="font-weight: bold; font-size: 25px;">Personal Projects</div>
-  <div style="opacity: 0.6;">Things of might been or could've been</div>
+  <div style="opacity: 0.6;">Of what might or could have been</div>
   <div class="container-projects" style="margin-top: 15px;">
     <div class="columns">
       <div class="column">
