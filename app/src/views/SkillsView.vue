@@ -39,7 +39,7 @@
       <div class="side-subskills">
         <div class="side-subtitle">ops</div>
         <div>
-          vps, aws, ec2, rds, s3, ses, bash, system.d, linux, ubuntu, ssh, sftp, vercel, azure
+          vps, aws, ec2, rds, s3, ses, bash, system.d, linux, ubuntu, ssh, sftp, vercel, azure, digitalocean
         </div>
       </div>
       <div class="side-subskills">
