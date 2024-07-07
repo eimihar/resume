@@ -15,7 +15,7 @@ export default {
     <div class="columns">
       <div class="column">
         <div class="exp-title">Lead Software Developer</div>
-        <div class="exp-company">Queuemed Healthcare Sdn Bhd</div>
+        <div class="exp-company">Queuemed Healthtech Sdn Bhd</div>
         <div class="exp-duration">November 2019 - current</div>
       </div>
       <!--            <div class="column is-one-quarter">-->
