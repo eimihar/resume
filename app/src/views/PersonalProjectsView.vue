@@ -47,7 +47,7 @@ export default defineComponent({
         </SectionProject>
         <SectionProject title="kernel.chat"
                         link="https://kernel.rosengate.com"
-                        tools="npm, js, ts, openAI, llm, vercel"
+                        tools="npm, js, ts, html, css openAI, llm, vercel"
                         time="somewhere 2023"
         >
           ChatGPT-like project just to experiment openAI APIs or even langchain, and explore the llm through my own lenses, also cause of course the nature of work call for it too.
@@ -63,7 +63,7 @@ export default defineComponent({
         </SectionProject>
         <SectionProject title="prompteer.dev"
                         link="https://prompteer.rosengate.com"
-                        tools="npm, js, ts, openAI, llm, vercel"
+                        tools="npm, js, ts, html, css openAI, llm, vercel"
                         time="somewhere 2023"
         >
           There use to be time when prompt engineering was a thing. It's was tool i made to help with development, engineering and testing of
@@ -108,6 +108,23 @@ export default defineComponent({
         >
           An overnightly simple and consistent PHP-mysql query builder based on PDO. Was really long ago when i just love to build and reinvent the wheels, and when ORM were bit overly complicated.
           These days, i settled with laravel/eloquent. And cause I love query builder, wouldn't settle for less.
+        </SectionProject>
+        <SectionProject
+          title="rosengate/sequencejs"
+          link="https://github.com/Rosengate/sequencejs"
+          tools="jquery, js, html, css"
+          time="2015"
+        >
+          A programmable touring engine inspired by intro.js, written with the love of js/jQuery. Pretty old project.
+        </SectionProject>
+        <SectionProject
+          title="eimihar/lkw-test"
+          link="https://github.com/eimihar/lkw-test"
+          time="october 2019"
+          tools="laravel, vue, js, html, css"
+        >
+          An interview test i did for Lim Kok Wing, back when i tried to find job again. Took me a week or something.
+          Delivered but they never revert back to me or whether they've even looked at it. Not gonna do something like this again, not for an interview. Anyway..
         </SectionProject>
       </div>
     </div>

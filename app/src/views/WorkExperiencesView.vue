@@ -22,7 +22,11 @@ export default {
     <div class="columns">
       <div class="column">
         <div class="exp-title">Lead Software Developer</div>
-        <div class="exp-company">Queuemed Healthtech Sdn Bhd</div>
+        <div class="exp-company">
+          <a href="https://qmed.asia" target="_blank">
+            Queuemed Healthtech Sdn Bhd
+          </a>
+        </div>
         <div class="exp-duration">November 2019 - current</div>
       </div>
       <!--            <div class="column is-one-quarter">-->
@@ -95,7 +99,11 @@ export default {
   </div>
   <div class="section-experience">
     <div class="exp-title">Lead System Developer</div>
-    <div class="exp-company">AVANA</div>
+    <div class="exp-company">
+      <a href="https://www.crunchbase.com/organization/avana/company_overview/overview_timeline" target="_blank">
+        AVANA
+      </a>
+    </div>
     <div class="exp-duration">January 2014 - November 2017</div>
     <div class="exp-detail">
       <ul>
@@ -109,10 +117,10 @@ export default {
           Developer/documentation portal, complete with theme publishing review system
         </li>
         <li>
-          Payment gateways
+          Payment gateways integration
         </li>
         <li>
-          Social platform APIs, like facebook page APIs, twitter, google blogspot
+          Social platform APIs integrations, like facebook page APIs, twitter, google blogspot
         </li>
         <li>
           Developed a proper release and deployment flow (non-CICD)
@@ -120,9 +128,9 @@ export default {
         <li>
           Deliver an ionic2 based mobile app (along with a designer) that consume the API project
         </li>
-        <li>Do a proper premium plan, along with regional pricing design</li>
+        <li>Developed a proper premium plan, along with regional pricing design</li>
         <li>Commerce, business related development</li>
-        <li>Delivered major project for the first 2 years. A CMS like platform to manage almost hundred of local internet centres / community.</li>
+        <li>Delivered major project for the first 2 years here (along with a designer). <a href="https://www.picelcom.my/" target="_blank">A CMS like platform to manage almost hundred of local internet centres / community.</a></li>
       </ul>
     </div>
   </div>
