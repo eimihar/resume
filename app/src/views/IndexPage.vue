@@ -27,7 +27,7 @@ export default {
           <a href="https://qmed.asia" target="_blank">qmed.asia</a>. not actively looking</div>
 
       </div>
-      <div class="tabs is-right">
+      <div class="tabs is-centered" style="overflow: hidden;">
         <ul style="border: 0px;">
           <li @click="tab = 'experiences'" :class="{'is-active': tab == 'experiences'}"><a>Work Experiences</a></li>
           <li @click="tab = 'projects'" :class="{'is-active': tab == 'projects'}"><a>Personal Projects</a></li>

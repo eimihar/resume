@@ -13,10 +13,14 @@ export default defineComponent({
   <div class="container-projects" style="margin-top: 15px;">
     <div class="columns">
       <div class="column">
-        <SectionProject title="rosengate/exedra" link="https://exedra.rosengate.com" tools="php" time="2015-2019">
+        <SectionProject
+          title="rosengate/exedra"
+          link="https://exedra.rosengate.com"
+          tools="php, nestful, routing, middleware, meta-programming"
+          time="2015-2019">
           <em>A nestful route oriented PHP microframework, shipped with a flexibility that allow you to design, plan and prototype your application and execution hierarchically through the map of routing.</em>
           <div style="margin-top: 10px;">
-            A php microframework (keyword nested, routing, middleware, meta-programming) i idealized around 2014-2015,
+            A php microframework (keyword ) i idealized around 2014-2015,
             and saw to it's final form around 2019. Still using it to this day, through laravel. Through rosengate/sigil.
             My technical baby once and forever.
           </div>
@@ -47,7 +51,7 @@ export default defineComponent({
         </SectionProject>
         <SectionProject title="kernel.chat"
                         link="https://kernel.rosengate.com"
-                        tools="npm, js, ts, html, css openAI, llm, vercel"
+                        tools="npm, vue, js, ts, html, css openAI, llm, vercel"
                         time="somewhere 2023"
         >
           ChatGPT-like project just to experiment openAI APIs or even langchain, and explore the llm through my own lenses, also cause of course the nature of work call for it too.
@@ -63,11 +67,19 @@ export default defineComponent({
         </SectionProject>
         <SectionProject title="prompteer.dev"
                         link="https://prompteer.rosengate.com"
-                        tools="npm, js, ts, html, css openAI, llm, vercel"
+                        tools="npm, vue, js, ts, html, css openAI, llm, vercel"
                         time="somewhere 2023"
         >
           There use to be time when prompt engineering was a thing. It's was tool i made to help with development, engineering and testing of
           llm system prompts. Requires OpenAI access token. I still believe that prompt engineering still have it's place in the future, but only with the right toolings.
+        </SectionProject>
+        <SectionProject
+          title="eimihar/resume"
+          link="https://github.com/eimihar/resume"
+          time="July 2024"
+          tools="vue, js, ts, html, css, bulma"
+        >
+          Just making the <a href="/" target="_blank">best resume</a> i can make? I promise this is not another blog cms. Just a frontend app. I love <a href="https://vuejs.org/" target="_blank">Vue.</a>
         </SectionProject>
       </div>
       <div class="column">
@@ -89,7 +101,7 @@ export default defineComponent({
               you'll be throwing onto the same exact positions of marbles, each time. So this wave function collapse is mathematical expansion of that.
             </p>
             <p>So, with the same world seed, you'd be able to revisit the same island again at the same position, and even how the islands look like is already pre-determined. Modern sandbox games
-              make the same use of mechanic or however the implement it.
+              make the same use of mechanic or however they implement it.
             </p>
           </ProjectReadMoreView>
         </SectionProject>
@@ -107,7 +119,7 @@ export default defineComponent({
           time="2016"
         >
           An overnightly simple and consistent PHP-mysql query builder based on PDO. Was really long ago when i just love to build and reinvent the wheels, and when ORM were bit overly complicated.
-          These days, i settled with laravel/eloquent. And cause I love query builder, wouldn't settle for less.
+          These days, I am already settled with laravel/eloquent. And cause I love query builder, wouldn't settle for less.
         </SectionProject>
         <SectionProject
           title="rosengate/sequencejs"
@@ -124,7 +136,7 @@ export default defineComponent({
           tools="laravel, vue, js, html, css"
         >
           An interview test i did for Lim Kok Wing, back when i tried to find job again. Took me a week or something.
-          Delivered but they never revert back to me or whether they've even looked at it. Not gonna do something like this again, not for an interview. Anyway..
+          Delivered but not sure whether they've even looked at it. Not gonna do something like this again, not for an interview. Anyway..
         </SectionProject>
       </div>
     </div>
