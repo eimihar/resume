@@ -12,10 +12,11 @@ export default {
           <template v-else>
             {{ title }}
           </template>
+          <span v-if="time" style="float: right; font-size: 0.8em; font-weight: normal; opacity: 0.5;">{{ time }}</span>
         </div>
-        <div class="column" style="text-align: right; font-size: 0.8em; font-weight: normal; opacity: 0.5;" v-if="time">
-          {{ time }}
-        </div>
+<!--        <div class="column" style="text-align: right; font-size: 0.8em; font-weight: normal; opacity: 0.5;" v-if="time">-->
+<!--          {{ time }}-->
+<!--        </div>-->
       </div>
     </div>
     <div class="project-body">

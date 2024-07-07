@@ -1,5 +1,12 @@
 <script>
+import exp from "node:constants";
+
 export default {
+  computed: {
+    exp() {
+      return exp
+    }
+  },
   data() {
     return {
       expandVoid: false
@@ -8,7 +15,7 @@ export default {
 }
 </script>
 <template>
-  <div style="font-weight: bold; font-size: 25px;">Work Experiences</div>
+  <div class="page-title" style="font-weight: bold; font-size: 25px;">Work Experiences</div>
   <div style="opacity: 0.6;">Fun or mundane things I did at works and stuff</div>
 
   <div class="section-experience">
@@ -64,9 +71,9 @@ export default {
       </ul>
     </div>
   </div>
-  <div v-if="!expandVoid" style="border-bottom: 1px solid gainsboro; padding: 5px 15px; cursor: pointer; opacity: 0.6;" @click="expandVoid = true">Career void</div>
+  <div v-if="!expandVoid" style="border-bottom: 1px solid gainsboro; padding: 5px; cursor: pointer; opacity: 0.6;" @click="expandVoid = true">Career void</div>
   <div v-else class="section-experience">
-      <div class="exp-title">Trial Developer</div>
+      <div class="exp-title" @click="expandVoid = false" style="cursor: pointer;">undefined</div>
       <div class="exp-company">Rosengate</div>
       <div class="exp-duration">December 2017 - October 2019</div>
       <div class="exp-detail">
@@ -124,8 +131,10 @@ export default {
     <div class="exp-company">KIST Technology</div>
     <div class="exp-duration">October 2011 - December 2013</div>
     <div class="exp-detail">
-      Develop web application, doing requirement study, handling application presentation.
       <ul>
+        <li>
+          Develop web application, doing requirement study, handling application presentation.
+        </li>
         <li>
           Campus management system (major module is timetable)
         </li>
@@ -148,3 +157,12 @@ export default {
     </div>
   </div>
 </template>
+<style lang="scss" scoped>
+@media screen and (max-width: 600px) {
+  .exp-detail {
+    ul li {
+      margin-bottom: 15px;
+    }
+  }
+}
+</style>

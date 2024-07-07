@@ -8,7 +8,7 @@ export default defineComponent({
 })
 </script>
 <template>
-  <div style="font-weight: bold; font-size: 25px;">Personal Projects</div>
+  <div class="page-title" style="font-weight: bold; font-size: 25px;">Personal Projects</div>
   <div style="opacity: 0.6;">Things of might been or could've been</div>
   <div class="container-projects" style="margin-top: 15px;">
     <div class="columns">
@@ -20,6 +20,30 @@ export default defineComponent({
             and saw to it's final form around 2019. Still using it to this day, through laravel. Through rosengate/sigil.
             My technical baby once and forever.
           </div>
+        </SectionProject>
+        <SectionProject
+          title="rosengate/sigil"
+          link="https://github.com/Rosengate/sigil"
+          tools="php, laravel, exedra"
+          time="2019"
+        >
+          Laravel-Exedra PHP 8 attributes based routing controller package. A bridge between laravel and exedra.
+          <ProjectReadMoreView>
+            <p>
+              I've learned over the years that rolling your own framework or
+              wiring the components for your microframework gets pretty tedious especially when you had to do it again, even if you had a good boilerplates.
+              I feel like it doesn't worth the mental works. So I just settled down and fall in love with laravel.
+            </p>
+            <p>
+              However there's still thing from rosengate/exedra that i still love to use, the annotation/attributes based routing.
+              I didn't like maintaining separate routes mapping files to hundred of controllers, especially when it comes to literal thousands of routing. I wish laravel have these, so i built this package which swap laravel routing, rewrite request/response cycle and
+              even the way middleware works with rosengate/exedra. Also the rewiring of IoC / dependency injection strategy.
+            </p>
+
+            <p>
+              A php8 attribute (or annotation/decorator in other lang) powered routing-controller, nestable, dependency injection and most importantly, laravel bootstrapped application.
+            </p>
+          </ProjectReadMoreView>
         </SectionProject>
         <SectionProject title="kernel.chat"
                         link="https://kernel.rosengate.com"
@@ -56,10 +80,17 @@ export default defineComponent({
           Quaternions? Everything is new, and math is everything. Wave function collapse? 3d modelling, projectile programming?
           3d animation? Sound effect programming and development? it's too much stuff..
           <ProjectReadMoreView>
-            The idea is procedurally generating the oceans, and islands with the wave function collapse or whatever they're calling it.
-            The random in computing is not totally random, but deterministic system by an initial configuration they call 'seed'. Imagine picking 10 marbles, and throw them all onto the ground.
-            The position of each marble will seemingly be random to you, but given the right seed <em>(10 marbles, and the right space-time position of this reality)</em>,
-            you'll be throwing onto the same exact positions of marbles, each time. So this wave function collapse is mathematical expansion of that.
+            <p>
+              The idea is to procedurally generate the oceans, and islands and the looks with the wave function collapse or whatever they're calling it.
+              The random in computing is not totally random, but deterministic system by an initial configuration they call 'seed'. Imagine picking 10 marbles, and throw them all onto the ground.
+            </p>
+            <p>
+              The position of each marble will seemingly be random to you, but given the right seed <em>(10 marbles, and the right space-time position of this reality)</em>,
+              you'll be throwing onto the same exact positions of marbles, each time. So this wave function collapse is mathematical expansion of that.
+            </p>
+            <p>So, with the same world seed, you'd be able to revisit the same island again at the same position, and even how the islands look like is already pre-determined. Modern sandbox games
+              make the same use of mechanic or however the implement it.
+            </p>
           </ProjectReadMoreView>
         </SectionProject>
         <SectionProject title="code51/dialoguesmith"
@@ -68,28 +99,6 @@ export default defineComponent({
                         time="around 2018"
         >
           A simple dialogue tree editor for unity. Initially making this for badpirates.
-        </SectionProject>
-        <SectionProject
-          title="rosengate/sigil"
-          link="https://github.com/Rosengate/sigil"
-          tools="php, laravel, exedra"
-          time="2019"
-        >
-          Laravel-Exedra PHP 8 attributes based routing controller package. A bridge between laravel and exedra.
-          <ProjectReadMoreView>
-            <p style="margin-top: 10px;">
-              I learned over the years that rolling your own framework or
-              wiring the components for your microframework gets pretty tedious especially when you had to do it again, even if you had a good boilerplates.
-              I feel like it doesn't worth the mental works. So I just settled down and fall in love with laravel.
-              However there's still thing from rosengate/exedra that i still love to use, the annotation/attributes based routing.
-              I didn't like maintaining separate routes mapping files, especially when it comes to literal thousands of routing. I wish laravel have these, so i built this package which basically swap laravel routing, rewrite request/response cycle and
-              even the way middleware works with rosengate/exedra. Also the rewiring of IoC / dependency injection strategy.
-            </p>
-
-            <p style="margin-top: 10px;">
-              A php8 attribute (or annotation/decorator in other lang) powered routing-controller, nestable, dependency injection and most importantly, laravel bootstrapped application.
-            </p>
-          </ProjectReadMoreView>
         </SectionProject>
         <SectionProject
           title="offworks/overnight"
@@ -102,6 +111,10 @@ export default defineComponent({
         </SectionProject>
       </div>
     </div>
-
   </div>
 </template>
+<style lang="scss" scoped>
+p {
+  margin-top: 10px;
+}
+</style>

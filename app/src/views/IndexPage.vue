@@ -2,9 +2,10 @@
 import WorkExperiencesView from "@/views/WorkExperiencesView.vue";
 import PersonalProjectsView from "@/views/PersonalProjectsView.vue";
 import SkillsView from "@/views/SkillsView.vue";
+import MobileSkillsView from "@/views/MobileSkillsView.vue";
 
 export default {
-  components: {SkillsView, PersonalProjectsView, WorkExperiencesView},
+  components: {MobileSkillsView, SkillsView, PersonalProjectsView, WorkExperiencesView},
   data() {
     return {
       tab: 'experiences'
@@ -30,6 +31,7 @@ export default {
         <ul style="border: 0px;">
           <li @click="tab = 'experiences'" :class="{'is-active': tab == 'experiences'}"><a>Work Experiences</a></li>
           <li @click="tab = 'projects'" :class="{'is-active': tab == 'projects'}"><a>Personal Projects</a></li>
+          <li class="tab-skills" @click="tab = 'skills'" :class="{'is-active': tab == 'skills'}"><a>Skills</a></li>
         </ul>
       </div>
     </div>
@@ -47,11 +49,44 @@ export default {
       <div class="column container-main">
         <WorkExperiencesView v-if="tab == 'experiences'" />
         <PersonalProjectsView v-if="tab == 'projects'" />
+        <MobileSkillsView v-if="tab == 'skills'" />
       </div>
     </div>
   </div>
 </template>
 <style lang="scss">
+* a {
+  color: rgb(198, 75, 89) !important;
+}
+
+.tabs li.is-active a {
+  border-bottom-color: rgb(198, 75, 89) !important;
+}
+
+.tabs li.is-active {
+  font-weight: bold;
+}
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 768px) {
+  .container-side {
+    display: none !important;
+  }
+
+  .page-title {
+    display: none;
+  }
+
+  .container-main {
+    padding-top: 10px !important;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .tab-skills {
+    display: none !important;
+  }
+}
+
 .section-skills {
   .minor {
     opacity: 0.6;
@@ -73,6 +108,7 @@ export default {
 
   .columns {
     .container-side {
+      padding: 25px;
       border-right: 1px solid gainsboro;
 
       .side-title {
@@ -80,18 +116,14 @@ export default {
         font-size: 1.1em;
       }
 
-      .side-subtitle {
-        font-weight: bold;
-        margin-top: 15px;
-      }
-
       > div {
-        padding: 10px;
+        margin-bottom: 25px;
       }
     }
 
     .container-main {
       margin-bottom: 150px;
+      padding: 25px;
     }
   }
 }
