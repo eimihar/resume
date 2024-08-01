@@ -69,7 +69,7 @@ export default {
         <li>
           Development of realtime features from queuescreens, to patient facing frontend, and implementation of websocket, teleconsultation, firmware (raspi, kiosk), openai etc
         </li>
-        <li>Development of payment gateways integrations like senangpay and revenue monster, and development payment terminal integration for kiosk, along with related system designs.</li>
+        <li>Development of payment gateways integrations through senangpay and revenue monster, and development payment terminal integration for kiosk, along with related system designs.</li>
         <li>
           Tackling major technical optimization/scaling issues as we grow
         </li>
