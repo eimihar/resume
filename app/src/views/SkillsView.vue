@@ -4,7 +4,7 @@
       <div class="side-subskills">
         <div class="side-subtitle">languages</div>
         <div>
-          <StoryLink path="skills/php">php</StoryLink>, js, typescript, mysql
+          <StoryLink path="skills/php">php</StoryLink>, <StoryLink path="skills/js">js</StoryLink>, typescript, mysql
         </div>
         <div>
           html, css
@@ -24,7 +24,7 @@
       <div class="side-subskills">
         <div class="side-subtitle">backend</div>
         <div>
-          laravel, exedra, php, mysql, node.js, lamp, ubuntu, linux, orm / active record, rest APIs, express.js
+          laravel, exedra, <StoryLink path="skills/php">php</StoryLink>, mysql, node.js, lamp, ubuntu, linux, <StoryLink path="skills/orm">orm / active record</StoryLink>, rest APIs, express.js
         </div>
       </div>
       <div class="side-subskills">

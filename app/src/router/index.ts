@@ -11,6 +11,8 @@ import TicketPrinterStoryPage from "@/views/Stories/Qmed/TicketPrinterStoryPage.
 import APIsStoryPage from "@/views/Stories/Qmed/APIsStoryPage.vue";
 import WebsocketStoryPage from "@/views/Stories/Skills/WebsocketStoryPage.vue";
 import PhpStoryPage from "@/views/Stories/Skills/PhpStoryPage.vue";
+import JsStoryPage from '@/views/Stories/Skills/JsStoryPage.vue';
+import OrmStoryPage from "@/views/Stories/Skills/OrmStoryPage.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -70,6 +72,14 @@ const router = createRouter({
                 {
                   path: 'php',
                   component: PhpStoryPage
+                },
+                {
+                  path: 'js',
+                  component: JsStoryPage
+                },
+                {
+                  path: 'orm',
+                  component: OrmStoryPage
                 }
               ]
             }
