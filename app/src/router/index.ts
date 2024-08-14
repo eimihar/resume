@@ -13,6 +13,7 @@ import WebsocketStoryPage from "@/views/Stories/Skills/WebsocketStoryPage.vue";
 import PhpStoryPage from "@/views/Stories/Skills/PhpStoryPage.vue";
 import JsStoryPage from '@/views/Stories/Skills/JsStoryPage.vue';
 import OrmStoryPage from "@/views/Stories/Skills/OrmStoryPage.vue";
+import VercelStoryPage from "@/views/Stories/Skills/VercelStoryPage.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -80,6 +81,10 @@ const router = createRouter({
                 {
                   path: 'orm',
                   component: OrmStoryPage
+                },
+                {
+                  path: 'vercel',
+                  component: VercelStoryPage
                 }
               ]
             }
