@@ -4,7 +4,7 @@
       <div class="side-subskills">
         <div class="side-subtitle">languages</div>
         <div>
-          php, js, typescript, mysql
+          <StoryLink path="skills/php">php</StoryLink>, js, typescript, mysql
         </div>
         <div>
           html, css
@@ -69,3 +69,6 @@
   font-weight: bold;
 }
 </style>
+<script setup lang="ts">
+import StoryLink from "@/views/StoryLink.vue";
+</script>

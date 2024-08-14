@@ -2,9 +2,10 @@
 import {defineComponent} from "vue";
 import SectionProject from "@/views/Project/SectionProject.vue";
 import ProjectReadMoreView from "@/views/Project/ProjectReadMoreView.vue";
+import LinkOut from "@/views/LinkOut.vue";
 
 export default defineComponent({
-  components: {ProjectReadMoreView, SectionProject},
+  components: {LinkOut, ProjectReadMoreView, SectionProject},
 })
 </script>
 <template>
@@ -79,7 +80,7 @@ export default defineComponent({
           time="July 2024"
           tools="vue, js, ts, html, css, bulma"
         >
-          Just making the <a href="/" target="_blank">best resume</a> i can make? I promise this is not another blog cms. Just a frontend app. I love <a href="https://vuejs.org/" target="_blank">Vue.</a>
+          Just making the <a href="/" target="_blank">best resume</a> i can make? I promise this is not another blog cms. Just a frontend app. I love <LinkOut href="https://vuejs.org/" target="_blank">Vue.</LinkOut>
         </SectionProject>
       </div>
       <div class="column">

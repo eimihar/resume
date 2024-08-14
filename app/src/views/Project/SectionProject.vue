@@ -1,5 +1,8 @@
 <script>
+import LinkOut from "@/views/LinkOut.vue";
+
 export default {
+  components: {LinkOut},
   props: ['title', 'about', 'link', 'body', 'tools', 'time']
 }
 </script>
@@ -8,7 +11,7 @@ export default {
     <div class="project-header">
       <div class="project-title columns">
         <div class="column">
-          <a v-if="link" :href="link" target="_blank">{{ title }}</a>
+          <LinkOut v-if="link" :href="link" target="_blank">{{ title }}</LinkOut>
           <template v-else>
             {{ title }}
           </template>
