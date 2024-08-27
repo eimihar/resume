@@ -26,7 +26,7 @@ export default {
       <div class="column">
         <div class="exp-title">Lead Software Developer</div>
         <div class="exp-company">
-          <LinkOut href="https://qmed.asia">Queuemed Healthtech Sdn Bhd</LinkOut>
+          <LinkOut href="https://qmed.asia/newsroom">Queuemed Healthtech Sdn Bhd</LinkOut>
         </div>
         <div class="exp-duration">November 2019 - current</div>
       </div>
