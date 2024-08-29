@@ -14,6 +14,8 @@ import PhpStoryPage from "@/views/Stories/Skills/PhpStoryPage.vue";
 import JsStoryPage from '@/views/Stories/Skills/JsStoryPage.vue';
 import OrmStoryPage from "@/views/Stories/Skills/OrmStoryPage.vue";
 import VercelStoryPage from "@/views/Stories/Skills/VercelStoryPage.vue";
+import LinuxStoryPage from "@/views/Stories/Skills/LinuxStoryPage.vue";
+import QueuesDesignStoryPage from "@/views/Stories/Qmed/QueuesDesignStoryPage.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -56,6 +58,10 @@ const router = createRouter({
                 {
                   path: 'apis',
                   component: APIsStoryPage
+                },
+                {
+                  path: 'queues',
+                  component: QueuesDesignStoryPage
                 }
               ]
             },
@@ -65,6 +71,10 @@ const router = createRouter({
                 {
                   path: 'aws',
                   component: AwsStoryPage
+                },
+                {
+                  path: 'linux',
+                  component: LinuxStoryPage
                 },
                 {
                   path: 'websocket',

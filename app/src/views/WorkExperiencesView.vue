@@ -53,10 +53,10 @@ export default {
           Scaled the development in the way it would be manageable to businesses to users to third parties to developers to qmed internals.
         </li>
         <li>
-          Handles most deployment stuff (except mobile builds), including setting up productions, vps provisioning and development instances for most projects (<StoryLink path="skills/aws">aws</StoryLink>, linux, ubuntu, s3, ec2, rds, azure vm, vercel etc), env based deployment and etc
+          Handles most deployment stuff (except mobile builds), including setting up productions, vps provisioning and development instances for most projects (<StoryLink path="skills/aws">aws</StoryLink>, <StoryLink path="skills/linux">linux</StoryLink>, ubuntu, s3, ec2, rds, azure vm, vercel etc), env based deployment and etc
         </li>
         <li>
-          Feature development and revamps includes customizable appointment slotting/scheduling design, thermal ticket printer, ticket QR, queuescreens and management, service queues design (<StoryLink path="skills/websocket">websocket</StoryLink> etc), patient portal, online ticket, clinics management, ads management, queue sequence and blueprint, feedback system and many others.
+          Feature development and revamps includes customizable appointment slotting/scheduling design, thermal ticket printer, ticket QR, queuescreens and management, <StoryLink path="qmed/queues">service queues design</StoryLink> (<StoryLink path="skills/websocket">websocket</StoryLink> etc), patient portal, online ticket, clinics management, ads management, queue sequence and blueprint, feedback system and many others.
         </li>
         <li>
           Codebase revamps to scale for features mostly or <StoryLink path="qmed/apis">how APIs are developed and maintained</StoryLink>
