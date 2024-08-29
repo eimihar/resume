@@ -15,17 +15,19 @@
       </li>
       <li>
         You do not want your endpoints break often, neither you want your APIs to grow without control. Usually it always boils down to
-        planning the APIs domains of implementation and structure, and at least being a step ahead of your company especially and knowing who's you gonna be developing for in the future.
+        planning the APIs domains of implementation and structure, and at least being a step ahead of your company especially
+        and knowing who's you gonna be developing for in the future.
       </li>
       <li>
         Development of standards on how APIs are developed, or the development of APIs standard themselves (REST) and how you'd
         need to adhere to these standard even if you work alone.
       </li>
       <li>
-        Development of standardization of API responses, structure and schema. Used <LinkOut target="_blank" href="https://fractal.thephpleague.com/">phpleague fractal</LinkOut> to describe a consistent response that's truly fitting for REST.
+        Development of standardization of API responses, structure and schema. Used <LinkOut target="_blank" href="https://fractal.thephpleague.com/">phpleague fractal</LinkOut>
+        to describe a consistent response that's truly fitting for REST.
       </li>
       <li>
-        Development of general error handling
+        Development of general exception and error handling, and domain specific exceptions
       </li>
       <li>
         Also lead the APIs development of other projects like doktoraku (2021), node.js/express.js based APIs for copilot

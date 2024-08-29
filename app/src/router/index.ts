@@ -16,8 +16,18 @@ import OrmStoryPage from "@/views/Stories/Skills/OrmStoryPage.vue";
 import VercelStoryPage from "@/views/Stories/Skills/VercelStoryPage.vue";
 import LinuxStoryPage from "@/views/Stories/Skills/LinuxStoryPage.vue";
 import QueuesDesignStoryPage from "@/views/Stories/Qmed/QueuesDesignStoryPage.vue";
+import PatientAppStoryPage from "@/views/Stories/Qmed/PatientAppStoryPage.vue";
+import AdsManagementStoryPage from "@/views/Stories/Qmed/AdsManagementStoryPage.vue";
+import CopilotStoryPage from "@/views/Stories/Qmed/CopilotStoryPage.vue";
+import LaravelStoryPage from "@/views/Stories/Skills/LaravelStoryPage.vue";
+import HISEMRIntegrationStoryPage from "@/views/Stories/Qmed/HISEMRIntegrationStoryPage.vue";
 
 const router = createRouter({
+  scrollBehavior(to, from, savedPosition) {
+    return new Promise((resolve) => {
+      resolve({ left: 0, top: 0 });
+    })
+  },
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
@@ -62,6 +72,22 @@ const router = createRouter({
                 {
                   path: 'queues',
                   component: QueuesDesignStoryPage
+                },
+                {
+                  path: 'patient-app',
+                  component: PatientAppStoryPage
+                },
+                {
+                  path: 'ads-management',
+                  component: AdsManagementStoryPage
+                },
+                {
+                  path: 'copilot',
+                  component: CopilotStoryPage
+                },
+                {
+                  path: 'his-emr',
+                  component: HISEMRIntegrationStoryPage
                 }
               ]
             },
@@ -95,6 +121,10 @@ const router = createRouter({
                 {
                   path: 'vercel',
                   component: VercelStoryPage
+                },
+                {
+                  path: 'laravel',
+                  component: LaravelStoryPage
                 }
               ]
             }

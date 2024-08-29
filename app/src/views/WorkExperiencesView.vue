@@ -28,6 +28,9 @@ export default {
         <div class="exp-company">
           <LinkOut href="https://qmed.asia/newsroom">Queuemed Healthtech Sdn Bhd</LinkOut>
         </div>
+        <div class="exp-company-about">
+          SaaS (and on-prem physical set-ups) healthcare for queue management for clinics and hospitals
+        </div>
         <div class="exp-duration">November 2019 - current</div>
       </div>
       <!--            <div class="column is-one-quarter">-->
@@ -47,7 +50,7 @@ export default {
           (scalable as in support/technical experience in setting up and configuring the devices for each deployment, and also the monitoring and management)
         </li>
         <li>
-          Sets up (REST) <StoryLink path="qmed/apis">APIs development</StoryLink> (that has covered literal thousands internal endpoints, and hundreds of v1 APIs) and still maintaining and actively developing another hundreds (that's being utilized by major product developments (patient app, dashboards, kiosks, copilot, including thirdparties integration)
+          Sets up (REST) <StoryLink path="qmed/apis">APIs development</StoryLink> (that has covered literal thousands internal endpoints, and hundreds of v1 APIs) and still maintaining and actively developing another hundreds (that's being utilized by major product developments (<StoryLink path="qmed/patient-app">patient app</StoryLink>, dashboards, kiosks, <StoryLink path="qmed/copilot">copilot</StoryLink>, including thirdparties integration)
         </li>
         <li>
           Scaled the development in the way it would be manageable to businesses to users to third parties to developers to qmed internals.
@@ -56,13 +59,13 @@ export default {
           Handles most deployment stuff (except mobile builds), including setting up productions, vps provisioning and development instances for most projects (<StoryLink path="skills/aws">aws</StoryLink>, <StoryLink path="skills/linux">linux</StoryLink>, ubuntu, s3, ec2, rds, azure vm, vercel etc), env based deployment and etc
         </li>
         <li>
-          Feature development and revamps includes customizable appointment slotting/scheduling design, thermal ticket printer, ticket QR, queuescreens and management, <StoryLink path="qmed/queues">service queues design</StoryLink> (<StoryLink path="skills/websocket">websocket</StoryLink> etc), patient portal, online ticket, clinics management, ads management, queue sequence and blueprint, feedback system and many others.
+          Feature development and revamps includes customizable appointment slotting/scheduling design, thermal ticket printer, ticket QR, queuescreens and management, <StoryLink path="qmed/queues">service queues design</StoryLink> (<StoryLink path="skills/websocket">websocket</StoryLink> etc), <StoryLink path="qmed/patient-app">patient portal</StoryLink>, online ticket, clinics management, <StoryLink path="qmed/ads-management">ads management</StoryLink>, queue sequence and blueprint, feedback system and many others.
         </li>
         <li>
           Codebase revamps to scale for features mostly or <StoryLink path="qmed/apis">how APIs are developed and maintained</StoryLink>
         </li>
         <li>
-          Development leads for qmed.asia, copilot project, patient hybrid app revamp, doktoraku, hardware firmwares, qmed go (teleconsultation kiosk), APIs development, and number of HIS/EMR integrations (along with <StoryLink path="qmed/his-network-infra">network infra setup</StoryLink>).
+          Development leads for qmed.asia, <StoryLink path="qmed/copilot">copilot</StoryLink> project, <StoryLink path="qmed/patient-app">patient hybrid app revamp</StoryLink>, doktoraku, hardware firmwares, qmed go (teleconsultation kiosk), APIs development, and number of <StoryLink path="qmed/his-emr">HIS/EMR integrations</StoryLink> (along with <StoryLink path="qmed/his-network-infra">network infra setup</StoryLink>).
         </li>
         <li>
           Development of internal tooling, frameworks, and proof of concepts that spans across multiple projects
@@ -103,6 +106,9 @@ export default {
     <div class="exp-title">Lead System Developer</div>
     <div class="exp-company">
       <LinkOut href="https://www.crunchbase.com/organization/avana/company_overview/overview_timeline">AVANA</LinkOut>
+    </div>
+    <div class="exp-company-about">
+      SaaS ecommerce like shopify but for SEA market, primary competitor back then was <LinkOut href="https://www.easystore.co/">EasyStore</LinkOut>
     </div>
     <div class="exp-duration">January 2014 - November 2017</div>
     <div class="exp-detail">

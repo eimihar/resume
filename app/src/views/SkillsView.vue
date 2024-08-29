@@ -18,13 +18,13 @@
       </div>
       <div class="side-subskills">
         <div class="side-subtitle">frameworks</div>
-        <div>laravel, exedra, vue, quasar</div>
+        <div><StoryLink path="skills/laravel">laravel</StoryLink>, exedra, vue, quasar</div>
         <div class="minor">ionic, flutter</div>
       </div>
       <div class="side-subskills">
         <div class="side-subtitle">backend</div>
         <div>
-          laravel, exedra, <StoryLink path="skills/php">php</StoryLink>, mysql, node.js, lamp, ubuntu, linux, <StoryLink path="skills/orm">orm / active record</StoryLink>, rest APIs, express.js
+          <StoryLink path="skills/laravel">laravel</StoryLink>, exedra, <StoryLink path="skills/php">php</StoryLink>, mysql, node.js, lamp, ubuntu, linux, <StoryLink path="skills/orm">orm / active record</StoryLink>, rest APIs, express.js
         </div>
       </div>
       <div class="side-subskills">

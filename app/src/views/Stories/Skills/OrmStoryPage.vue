@@ -16,7 +16,7 @@
         I once made my own query builder called <LinkOut href="https://github.com/offworks/overnight">offworks/overnight</LinkOut>
       </li>
       <li>
-        Have some experiences with TypeORM for typescript, and wouldn't mind learning new ORMs given that how mature the concept and implementation has already becoming these days.
+        Have some experiences with <LinkOut href="https://typeorm.io/">TypeORM</LinkOut> for typescript, and wouldn't mind learning new ORMs given that how mature the concept and implementation has already becoming these days.
       </li>
       <li>
         Used to dislike ORM due to how complicated it was back in 2015 (especially in setting up the properties, model and all the works), now I couldn't really live without it.

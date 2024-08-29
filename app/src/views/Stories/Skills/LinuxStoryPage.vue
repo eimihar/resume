@@ -26,9 +26,9 @@ export default defineComponent({
           <li>/home/user/* for codes and deployment. (Used to be at /var/www/html)</li>
         </ul>
       </li>
-      <li>Have worked typically boxes through cloud like aws, azure, or hardware like raspberry, NUC or wsl2</li>
-      <li>Have a basic knowledge in when to use sudoer and when to not</li>
-      <li>Have worked through migration for storage, like disk mounting/unmounting stuff, or in setting up clean instance for production for migration</li>
+      <li>Have worked the boxes through cloud like aws, azure, or hardware like raspberry, NUC or wsl2</li>
+      <li>Have a basic knowledge in when to use sudoer and when to not, and good enough to install stuff, setting up daemons and so on</li>
+      <li>Have worked through vps migrations like moving stuff and storage, like disk mounting/unmounting stuff, or in setting up clean instance for production for migration purpose</li>
     </ul>
   </StoryContentView>
 </template>
