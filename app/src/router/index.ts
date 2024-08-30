@@ -21,6 +21,9 @@ import AdsManagementStoryPage from "@/views/Stories/Qmed/AdsManagementStoryPage.
 import CopilotStoryPage from "@/views/Stories/Qmed/CopilotStoryPage.vue";
 import LaravelStoryPage from "@/views/Stories/Skills/LaravelStoryPage.vue";
 import HISEMRIntegrationStoryPage from "@/views/Stories/Qmed/HISEMRIntegrationStoryPage.vue";
+import PaymentGatewaysStoryPage from "@/views/Stories/Skills/PaymentGatewaysStoryPage.vue";
+import KioskStoryPage from "@/views/Stories/Qmed/KioskStoryPage.vue";
+import DashboardStoryPage from "@/views/Stories/Qmed/DashboardStoryPage.vue";
 
 const router = createRouter({
   scrollBehavior(to, from, savedPosition) {
@@ -37,10 +40,12 @@ const router = createRouter({
       children: [
         {
           path: '',
+          name: 'experiences',
           component: WorkExperiencesPage
         },
         {
           path: 'personal-projects',
+          name: 'projects',
           component: PersonalProjectsPage
         },
         {
@@ -88,6 +93,14 @@ const router = createRouter({
                 {
                   path: 'his-emr',
                   component: HISEMRIntegrationStoryPage
+                },
+                {
+                  path: 'kiosk',
+                  component: KioskStoryPage
+                },
+                {
+                  path: 'dashboard',
+                  component: DashboardStoryPage
                 }
               ]
             },
@@ -125,6 +138,10 @@ const router = createRouter({
                 {
                   path: 'laravel',
                   component: LaravelStoryPage
+                },
+                {
+                  path: 'payment-gateways',
+                  component: PaymentGatewaysStoryPage
                 }
               ]
             }

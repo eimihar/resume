@@ -18,6 +18,8 @@ export default defineComponent({
       <li>
         Have understanding of typical returns from payment gateways integrations which either through webhook or redirects.
       </li>
+      <li>Have developed necessary system and db designs surrounding payment, from currency, conversion rate, statuses, to payouts</li>
+      <li>Have experience in integrating payment terminal, and developed way to integrate with kiosk all the way from system design to APIs, to integrating with third-party HIS billing system.</li>
     </ul>
   </StoryContentView>
 </template>

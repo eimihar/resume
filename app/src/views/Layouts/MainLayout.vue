@@ -9,7 +9,11 @@ export default {
   components: {LinkOut, MobileSkillsView, SkillsView, PersonalProjectsView, WorkExperiencesView},
   data() {
     return {
-      tab: 'experiences'
+    }
+  },
+  computed: {
+    tab() {
+      return this.$route.name;
     }
   }
 }
@@ -32,10 +36,10 @@ export default {
       </div>
       <div class="tabs is-centered" style="overflow: hidden;">
         <ul style="border: 0px;">
-          <li>
+          <li :class="{'is-active': tab == 'experiences'}">
             <RouterLink to="/">Work Experiences</RouterLink>
           </li>
-          <li>
+          <li :class="{'is-active': tab == 'projects'}">
             <RouterLink to="personal-projects">
               Personal Projects
               </RouterLink>

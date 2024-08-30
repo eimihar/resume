@@ -46,20 +46,20 @@ export default {
     <div class="exp-detail">
       <ul>
         <li>
-          Development of hardware firmware includes scalable devices deployment like <StoryLink path="qmed/queuescreens">queuescreens</StoryLink>, <StoryLink path="qmed/ticket-printer">ticket printers</StoryLink>
+          Development of hardware firmware including scalable devices deployment like <StoryLink path="qmed/queuescreens">queuescreens</StoryLink>, <StoryLink path="qmed/ticket-printer">ticket printers</StoryLink>
           (scalable as in support/technical experience in setting up and configuring the devices for each deployment, and also the monitoring and management)
         </li>
         <li>
-          Sets up (REST) <StoryLink path="qmed/apis">APIs development</StoryLink> (that has covered literal thousands internal endpoints, and hundreds of v1 APIs) and still maintaining and actively developing another hundreds (that's being utilized by major product developments (<StoryLink path="qmed/patient-app">patient app</StoryLink>, dashboards, kiosks, <StoryLink path="qmed/copilot">copilot</StoryLink>, including thirdparties integration)
+          Sets up (REST) <StoryLink path="qmed/apis">APIs development</StoryLink> (that has covered literal thousands internal endpoints, and hundreds of v1 APIs) and still maintaining and actively developing another hundreds (that's being utilized by major product developments (<StoryLink path="qmed/patient-app">patient app</StoryLink>, <StoryLink path="qmed/dashboard">dashboards</StoryLink>, <StoryLink path="qmed/kiosk">kiosks</StoryLink>, <StoryLink path="qmed/copilot">copilot</StoryLink>, including thirdparties integration)
         </li>
         <li>
           Scaled the development in the way it would be manageable to businesses to users to third parties to developers to qmed internals.
         </li>
         <li>
-          Handles most deployment stuff (except mobile builds), including setting up productions, vps provisioning and development instances for most projects (<StoryLink path="skills/aws">aws</StoryLink>, <StoryLink path="skills/linux">linux</StoryLink>, ubuntu, s3, ec2, rds, azure vm, vercel etc), env based deployment and etc
+          Handles most deployment stuff (except mobile builds), including <StoryLink path="skills/linux">setting up productions</StoryLink>, vps provisioning and development instances for most projects (<StoryLink path="skills/aws">aws</StoryLink>, <StoryLink path="skills/linux">linux</StoryLink>, ubuntu, s3, ec2, rds, azure vm, <StoryLink path="skills/vercel">vercel</StoryLink> etc), env based deployment and etc
         </li>
         <li>
-          Feature development and revamps includes customizable appointment slotting/scheduling design, thermal ticket printer, ticket QR, queuescreens and management, <StoryLink path="qmed/queues">service queues design</StoryLink> (<StoryLink path="skills/websocket">websocket</StoryLink> etc), <StoryLink path="qmed/patient-app">patient portal</StoryLink>, online ticket, clinics management, <StoryLink path="qmed/ads-management">ads management</StoryLink>, queue sequence and blueprint, feedback system and many others.
+          Feature development and revamps includes customizable appointment slotting/scheduling design, <StoryLink path="qmed/ticket-printer">thermal ticket printer</StoryLink>, ticket QR, queuescreens and management, <StoryLink path="qmed/queues">service queues design</StoryLink> (<StoryLink path="skills/websocket">websocket</StoryLink> etc), <StoryLink path="qmed/patient-app">patient portal</StoryLink>, online ticket, clinics management, <StoryLink path="qmed/ads-management">ads management</StoryLink>, queue sequence and blueprint, feedback system and many others.
         </li>
         <li>
           Codebase revamps to scale for features mostly or <StoryLink path="qmed/apis">how APIs are developed and maintained</StoryLink>
@@ -73,10 +73,13 @@ export default {
         <li>
           Development of realtime features from <StoryLink path="qmed/queuescreens">queuescreens</StoryLink>, to patient facing frontend, and implementation of <StoryLink path="skills/websocket">websocket</StoryLink>, teleconsultation, firmware (raspi, kiosk), openai etc
         </li>
-        <li>Development of payment gateways integrations through senangpay and revenue monster, and development payment terminal integration for kiosk, along with related system designs. Also developed payout module for payments as in general we used escrow model</li>
+        <li>Development of <StoryLink path="skills/payment-gateways">payment gateways</StoryLink> integrations flow through
+          senangpay and revenue monster for paid service/package and credit top-up, and development of payment terminal integration for kiosk, along with related system designs.
+          Also developed payout module for payments (being an escrow model). Also integrated payment terminal for one of our hospitals.</li>
         <li>
-          Tackling major technical optimization/scaling and security issues as we grow
+          Tackling major technical optimization/scaling and security issues as we the number grows
         </li>
+        <li>Have worked with designers, developers, mobile developers, kiosk, product owners, third parties, and non-technicals for business requirements, feature requests, bugs report or product developments.</li>
       </ul>
     </div>
   </div>
