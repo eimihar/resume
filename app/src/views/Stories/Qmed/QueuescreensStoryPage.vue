@@ -12,7 +12,7 @@
         </ul>
       </li>
       <li>Integrated layouts as developed along with a designer, as well as making sure the development is scalable as merchants usually would want a different layouts</li>
-      <li>Worked through multiple projects that requires different layouts like PPV projects (during covid) or hospitals</li>
+      <li>Worked through multiple projects that requires different layouts like <LinkOut href="https://x.com/KKMPutrajaya/status/1530014529052024833">PPV projects</LinkOut> (during covid) or hospitals</li>
       <li>Development of screens management for each clinic through dashboard</li>
       <li>Developed an internal management tool to access each queuescreens, sending refresh command, reboot and so on.</li>
     </ul>
@@ -21,4 +21,5 @@
 <script setup lang="ts">
 import StoryTitleView from "@/views/Stories/StoryTitleView.vue";
 import StoryContentView from "@/views/Stories/StoryContentView.vue";
+import LinkOut from "@/views/LinkOut.vue";
 </script>

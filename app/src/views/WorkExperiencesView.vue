@@ -50,7 +50,7 @@ export default {
           (scalable as in support/technical experience in setting up and configuring the devices for each deployment, and also the monitoring and management)
         </li>
         <li>
-          Sets up (REST) <StoryLink path="qmed/apis">APIs development</StoryLink> (that has covered literal thousands internal endpoints, and hundreds of v1 APIs) and still maintaining and actively developing another hundreds (that's being utilized by major product developments (<StoryLink path="qmed/patient-app">patient app</StoryLink>, <StoryLink path="qmed/dashboard">dashboards</StoryLink>, <StoryLink path="qmed/kiosk">kiosks</StoryLink>, <StoryLink path="qmed/copilot">copilot</StoryLink>, including thirdparties integration)
+          Sets up (REST) <StoryLink path="qmed/apis">APIs development</StoryLink> (that has covered literal thousands internal endpoints, and hundreds of v1 APIs) and still maintaining and actively developing another hundreds (that's being utilized by major product developments (<StoryLink path="qmed/patient-app">patient app</StoryLink>, <StoryLink path="qmed/dashboard">dashboards</StoryLink>, <StoryLink path="qmed/kiosk">kiosks</StoryLink>, <StoryLink path="qmed/copilot">copilot</StoryLink>, qmed-go, including thirdparties integration)
         </li>
         <li>
           Scaled the development in the way it would be manageable to businesses to users to third parties to developers to qmed internals.
