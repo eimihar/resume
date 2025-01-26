@@ -45,7 +45,7 @@
       <div class="side-subskills">
         <div class="side-subtitle">others</div>
         <div>
-          openai, llm, raspberry, websocket, pusher.js
+          openai, llm, <StoryLink path="skills/raspberry">raspberry</StoryLink>, websocket, pusher.js
         </div>
       </div>
       <div class="side-subskills">

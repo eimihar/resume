@@ -2,9 +2,11 @@
 import {defineComponent} from "vue";
 import StoryTitleView from "@/views/Stories/StoryTitleView.vue";
 import StoryContentView from "@/views/Stories/StoryContentView.vue";
+import LinkOut from "@/views/LinkOut.vue";
+import StoryLink from "@/views/StoryLink.vue";
 
 export default defineComponent({
-  components: {StoryContentView, StoryTitleView}
+  components: {StoryLink, LinkOut, StoryContentView, StoryTitleView}
 })
 </script>
 <template>
@@ -19,7 +21,7 @@ export default defineComponent({
         Have understanding of typical returns from payment gateways integrations which either through webhook or redirects.
       </li>
       <li>Have developed necessary system and db designs surrounding payment, from currency, conversion rate, statuses, to payouts</li>
-      <li>Have experience in integrating payment terminal, and developed way to integrate with kiosk all the way from system design to APIs, to integrating with third-party HIS billing system.</li>
+      <li>Have experience in integrating <LinkOut href="https://revenuemonster.my/terminal">payment terminal</LinkOut>, and developed way to integrate with kiosk all the way from system design to APIs, to <StoryLink path="qmed/his-emr">integrating with third-party HIS billing system.</StoryLink> </li>
     </ul>
   </StoryContentView>
 </template>

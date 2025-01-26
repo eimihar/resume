@@ -24,6 +24,8 @@ import HISEMRIntegrationStoryPage from "@/views/Stories/Qmed/HISEMRIntegrationSt
 import PaymentGatewaysStoryPage from "@/views/Stories/Skills/PaymentGatewaysStoryPage.vue";
 import KioskStoryPage from "@/views/Stories/Qmed/KioskStoryPage.vue";
 import DashboardStoryPage from "@/views/Stories/Qmed/DashboardStoryPage.vue";
+import RasperryStoryPage from "@/views/Stories/Skills/RasperryStoryPage.vue";
+import TeleconsultationStoryPage from "@/views/Stories/Qmed/TeleconsultationStoryPage.vue";
 
 const router = createRouter({
   scrollBehavior(to, from, savedPosition) {
@@ -99,6 +101,10 @@ const router = createRouter({
                   component: KioskStoryPage
                 },
                 {
+                  path: 'teleconsultation',
+                  component: TeleconsultationStoryPage
+                },
+                {
                   path: 'dashboard',
                   component: DashboardStoryPage
                 }
@@ -130,6 +136,10 @@ const router = createRouter({
                 {
                   path: 'orm',
                   component: OrmStoryPage
+                },
+                {
+                  path: 'raspberry',
+                  component: RasperryStoryPage
                 },
                 {
                   path: 'vercel',

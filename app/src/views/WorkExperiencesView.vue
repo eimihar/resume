@@ -65,17 +65,17 @@ export default {
           Codebase revamps to scale for features mostly or <StoryLink path="qmed/apis">how APIs are developed and maintained</StoryLink>
         </li>
         <li>
-          Development leads for qmed.asia, <StoryLink path="qmed/copilot">copilot</StoryLink> project, <StoryLink path="qmed/patient-app">patient hybrid app revamp</StoryLink>, doktoraku, hardware firmwares, qmed go (teleconsultation kiosk), APIs development, and number of <StoryLink path="qmed/his-emr">HIS/EMR integrations</StoryLink> (along with <StoryLink path="qmed/his-network-infra">network infra setup</StoryLink>).
+          Development leads for qmed.asia, <StoryLink path="qmed/copilot">copilot</StoryLink> project, <StoryLink path="qmed/patient-app">patient hybrid app revamp</StoryLink>, doktoraku, hardware firmwares, qmed go (<StoryLink path="qmed/teleconsultation">teleconsultation</StoryLink> kiosk), APIs development, and number of <StoryLink path="qmed/his-emr">HIS/EMR integrations</StoryLink> (along with <StoryLink path="qmed/his-network-infra">network infra setup</StoryLink>).
         </li>
         <li>
           Development of internal tooling, frameworks, and proof of concepts that spans across multiple projects
         </li>
         <li>
-          Development of realtime features from <StoryLink path="qmed/queuescreens">queuescreens</StoryLink>, to patient facing frontend, and implementation of <StoryLink path="skills/websocket">websocket</StoryLink>, teleconsultation, firmware (raspi, kiosk), openai etc
+          Development of realtime features from <StoryLink path="qmed/queuescreens">queuescreens</StoryLink>, to patient facing frontend, and implementation of <StoryLink path="skills/websocket">websocket</StoryLink>, <StoryLink path="qmed/teleconsultation">teleconsultation</StoryLink>, firmware (raspi, kiosk), openai etc
         </li>
         <li>Development of <StoryLink path="skills/payment-gateways">payment gateways</StoryLink> integrations flow through
           senangpay and revenue monster for paid service/package and credit top-up, and development of payment terminal integration for kiosk, along with related system designs.
-          Also developed payout module for payments (being an escrow model). Also integrated payment terminal for one of our hospitals.</li>
+          Also developed payout module for payments (being an escrow model). Also <StoryLink path="qmed/his-emr">integrated payment terminal for one of our hospitals.</StoryLink></li>
         <li>
           Tackling major technical optimization/scaling and security issues as we the number grows
         </li>

@@ -9,6 +9,7 @@
           <li>Patient app</li>
           <li>Kiosks Development</li>
           <li>Copilot Project</li>
+          <li>Qmed Go</li>
           <li>Third-parties</li>
           <li>Prototypes projects</li>
         </ul>
