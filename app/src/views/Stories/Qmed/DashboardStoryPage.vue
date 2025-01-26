@@ -3,9 +3,9 @@
   <StoryContentView>
     <ul>
       <li>Lead most of the developments on qmed admin dashboard for managing clinic</li>
-      <li>Development of access levels on how members access the management features</li>
-      <li>Development of queues management</li>
-      <li>Development of appointment and comprehensive schedule slotting system</li>
+      <li>Development of access levels on how members access the features</li>
+      <li>Development of queues management, from journey sequence, and sequence blueprint, to the general level how how patients usually queue.</li>
+      <li>Development of (reworked) appointment and comprehensive schedule slotting system</li>
       <li>Development of internal frameworks or standard on how things are developed</li>
     </ul>
   </StoryContentView>
