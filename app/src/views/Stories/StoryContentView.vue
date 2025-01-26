@@ -10,4 +10,10 @@
     padding: 10px 30px;
   }
 }
+
+@media screen and (max-width: 600px) {
+  .container-story-content ul > li {
+    margin-bottom: 5px;
+  }
+}
 </style>
