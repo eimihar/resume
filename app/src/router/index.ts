@@ -26,6 +26,7 @@ import KioskStoryPage from "@/views/Stories/Qmed/KioskStoryPage.vue";
 import DashboardStoryPage from "@/views/Stories/Qmed/DashboardStoryPage.vue";
 import RasperryStoryPage from "@/views/Stories/Skills/RasperryStoryPage.vue";
 import TeleconsultationStoryPage from "@/views/Stories/Qmed/TeleconsultationStoryPage.vue";
+import UmmcKiosksStoryPage from "@/views/Stories/Qmed/UmmcKiosksStoryPage.vue";
 
 const router = createRouter({
   scrollBehavior(to, from, savedPosition) {
@@ -103,6 +104,10 @@ const router = createRouter({
                 {
                   path: 'teleconsultation',
                   component: TeleconsultationStoryPage
+                },
+                {
+                  path: 'ummc-kiosks',
+                  component: UmmcKiosksStoryPage
                 },
                 {
                   path: 'dashboard',

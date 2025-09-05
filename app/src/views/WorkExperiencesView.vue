@@ -77,6 +77,9 @@ export default {
           senangpay and revenue monster for paid service/package and credit top-up, and development of payment terminal integration for kiosk, along with related system designs.
           Also developed payout module for payments (being an escrow model). Also <StoryLink path="qmed/his-emr">integrated payment terminal for one of our hospitals.</StoryLink></li>
         <li>
+          Development lead for <StoryLink path="qmed/ummc-kiosks">UMMC 10 Payment Kiosks</StoryLink> project (around june 2025 to august/september 2025).
+        </li>
+        <li>
           Tackling major technical optimization/scaling and security issues as we the number grows
         </li>
         <li>Have worked with designers, developers, mobile developers, kiosk, product owners, third parties, and non-technicals for business requirements, feature requests, bugs report or product developments.</li>
